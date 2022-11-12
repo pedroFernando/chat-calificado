@@ -33,8 +33,27 @@
     <message xmi:type="uml:Message" xmi:id="_1q-e8GLAEe2YdcmO65SsZg" name="guarda(cuenta)" messageSort="asynchCall" receiveEvent="_1q_tEGLAEe2YdcmO65SsZg" sendEvent="_1q_GAGLAEe2YdcmO65SsZg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_6rOx8GKuEe2YdcmO65SsZg" name="Persona">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_J3HGQGKvEe2YdcmO65SsZg" name="identificacion"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_pUFmUGK2Ee2YdcmO65SsZg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_pUFmUGK2Ee2YdcmO65SsZg" name="identificacion">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_O_tSkGLBEe2YdcmO65SsZg" name="nombre">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SjJkIGLBEe2YdcmO65SsZg" name="id">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_g30joGLBEe2YdcmO65SsZg" name="genero">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_teDrYGLBEe2YdcmO65SsZg" name="direccion">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yhfJAGLBEe2YdcmO65SsZg" name="telefono">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4YSkUGLBEe2YdcmO65SsZg" name="edad">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_KfiwgGK1Ee2YdcmO65SsZg" name="Administrador"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_MSR5cGK1Ee2YdcmO65SsZg" name="Registrar cliente"/>
@@ -61,4 +80,52 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_bHR-0mK1Ee2YdcmO65SsZg" name="usecase7" type="_Ninf8GK1Ee2YdcmO65SsZg" association="_bHQwsGK1Ee2YdcmO65SsZg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_bHR-02K1Ee2YdcmO65SsZg" name="administrador" type="_KfiwgGK1Ee2YdcmO65SsZg" association="_bHQwsGK1Ee2YdcmO65SsZg"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_AVN-oGLCEe2YdcmO65SsZg" name="Cliente">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_B5kGQGLCEe2YdcmO65SsZg" name="clave">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OMnzUGLCEe2YdcmO65SsZg" name="estado">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_qcJkIGLCEe2YdcmO65SsZg" client="_AVN-oGLCEe2YdcmO65SsZg" supplier="_6rOx8GKuEe2YdcmO65SsZg"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CLsQsGLFEe2YdcmO65SsZg" name="Cuenta">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_PiItYGLFEe2YdcmO65SsZg" name="id">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SrGpcGLFEe2YdcmO65SsZg" name="numero">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YyLVYGLFEe2YdcmO65SsZg" name="tipo">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEnumerator"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qJ09sGLFEe2YdcmO65SsZg" name="balanceInicial">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigDecimal"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qqk6UGLFEe2YdcmO65SsZg" name="saldo">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigDecimal"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_rBoIYGLFEe2YdcmO65SsZg" name="estado">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Ln2zsGLGEe2YdcmO65SsZg" name="Movimiento">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Kp_yYGLIEe2YdcmO65SsZg" name="id">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OgI9gGLIEe2YdcmO65SsZg" name="fecha">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_cHx34GLIEe2YdcmO65SsZg" name="tipo">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEnumerator"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_e9PpIGLIEe2YdcmO65SsZg" name="monto">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigDecimal"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_f6CBgGLIEe2YdcmO65SsZg" name="balance">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EBigDecimal"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_voZiYGLJEe2YdcmO65SsZg"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yphxEGLJEe2YdcmO65SsZg"/>
 </uml:Model>
