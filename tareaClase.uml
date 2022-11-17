@@ -3,7 +3,7 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_NKPyUGKsEe2YdcmO65SsZg">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Interaction" xmi:id="_NFPWgGKsEe2YdcmO65SsZg" name="Interaction1">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_NFPWgGKsEe2YdcmO65SsZg" name="Registrar Cuenta">
     <lifeline xmi:type="uml:Lifeline" xmi:id="_r7p68GK1Ee2YdcmO65SsZg" name="Administrador" coveredBy="_0kDh4GK6Ee2YdcmO65SsZg _FfV-UGK7Ee2YdcmO65SsZg _JEuJkGK7Ee2YdcmO65SsZg"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_3zLikGK1Ee2YdcmO65SsZg" name="Pantalla Inicio" coveredBy="_P-ny4GK2Ee2YdcmO65SsZg _P-nL0GK2Ee2YdcmO65SsZg _0kDh4WK6Ee2YdcmO65SsZg _8ERLAWK6Ee2YdcmO65SsZg"/>
     <lifeline xmi:type="uml:Lifeline" xmi:id="_5aISQGK1Ee2YdcmO65SsZg" name="Pantalla Cuenta" coveredBy="_8ERyEGK6Ee2YdcmO65SsZg _FfV-UWK7Ee2YdcmO65SsZg _JEuJkWK7Ee2YdcmO65SsZg _ECnsMGK8Ee2YdcmO65SsZg _ECnsMWK8Ee2YdcmO65SsZg _1q_GAGLAEe2YdcmO65SsZg _C0fhoGK7Ee2YdcmO65SsZg"/>
